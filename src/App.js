@@ -1,10 +1,13 @@
 import "./App.css";
+import Article from "./Components/Article/article";
+import Hero from "./Components/Hero/hero";
 
 
 function App() {
   return (
-    <div>
-      <h1>TESTE</h1>
+    <div className="app">
+      <Hero/>
+      <Article/>
     </div>
   );
 }

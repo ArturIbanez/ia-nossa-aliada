@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ia-nossa-aliada/static/css/main.c7ec3132.css",
+    "main.js": "/ia-nossa-aliada/static/js/main.b5cb6ae3.js",
+    "index.html": "/ia-nossa-aliada/index.html",
+    "main.c7ec3132.css.map": "/ia-nossa-aliada/static/css/main.c7ec3132.css.map",
+    "main.b5cb6ae3.js.map": "/ia-nossa-aliada/static/js/main.b5cb6ae3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ec3132.css",
+    "static/js/main.b5cb6ae3.js"
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ia-nossa-aliada/static/css/main.27ec1131.css",
+    "main.css": "/ia-nossa-aliada/static/css/main.a15f5bba.css",
     "main.js": "/ia-nossa-aliada/static/js/main.e4acd30a.js",
     "index.html": "/ia-nossa-aliada/index.html",
-    "main.27ec1131.css.map": "/ia-nossa-aliada/static/css/main.27ec1131.css.map",
+    "main.a15f5bba.css.map": "/ia-nossa-aliada/static/css/main.a15f5bba.css.map",
     "main.e4acd30a.js.map": "/ia-nossa-aliada/static/js/main.e4acd30a.js.map"
   },
   "entrypoints": [
-    "static/css/main.27ec1131.css",
+    "static/css/main.a15f5bba.css",
     "static/js/main.e4acd30a.js"
   ]
 }

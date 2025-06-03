@@ -78,3 +78,32 @@
     right: 0;
     top: 250px;
 }
+
+@media (max-width: 767px){
+
+    .article-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .article-columm-left{
+        text-align: center;
+    }
+    .article-columm-left p{
+        font-size: 16px;
+    }
+
+    .article-columm-right{ 
+        text-align: center;
+    }
+
+
+    .linha-article {
+        margin-top: 70px;
+        width: 90%;
+        max-width: 300px;
+        top: 30px; /* Ajusta posição vertical */
+        /* display: none; /* Opcional: Ocultar em telas muito pequenas se poluir */
+    }
+}

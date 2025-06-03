@@ -45,3 +45,29 @@
     width: 2px;
     height: 100px;
 }
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 767px) {
+    .hero-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-main h1{
+        text-align: center;
+        font-size: 34.5px;
+        padding: 0 50px;
+    }
+    .subtitle{
+        position: absolute;
+        left: 37px;
+        bottom: 0;
+    }
+    .subtitle p{
+        width: 500px;
+        text-align: right;
+        font-size: 17.5px;
+    }
+}

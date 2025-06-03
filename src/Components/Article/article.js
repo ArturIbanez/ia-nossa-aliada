@@ -39,6 +39,12 @@ function Article(){
         <div className="article-container">
             <div className="linha-article"></div>
             <div className="article-columm-left">
+
+                <textoAnimado>
+                  <h3><strong>Utilização da IA Atualmente</strong></h3>
+                </textoAnimado>
+
+
                 <TextoAnimado>
                 <h2>Saúde</h2>
                 </TextoAnimado>

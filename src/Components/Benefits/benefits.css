@@ -1,64 +1,60 @@
-.article-container{
+.benefits-container{
     background-color: #111;
     display: flex;
     width: 100%;
+    min-height: 100vh;
     position: relative;
 }
 
-.article-main{
+.benefits-main{
     color: #fff;
 }
 
-.article-columm-left{
-    width: 100%;
+.benefits-columm-left{
+    flex: 1; 
     padding: 0 150px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+    justify-content: center; 
 }
 
-.article-columm-left h2{
+
+.benefits-columm-left h2{
     font-size: 40px;
     padding-top: 180px;
     font-family: "roboto mono";
 }
 
-.article-columm-left h3{
-    font-size:60px;
-    padding-top: 100px;
-    font-family: "roboto mono";
-}
-
-.article-columm-left p{
+.benefits-columm-left p{
+    text-align: left;
     padding-top: 20px;
     font-size: 18px;
     font-family: "roboto";
     line-height: 1.5;
 }
 
-.article-columm-left strong{
+.benefits-columm-left strong{
     background-color: #0048a7;
 }
 
-.article-columm-right{
-    width: 100%;
+
+.benefits-columm-right{
+    flex: 1; 
     padding: 0 150px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+    justify-content: center; 
+    margin-top: 500px;
 }
 
-.article-columm-right h2{
+.benefits-columm-right h2{
     font-size: 40px;
     padding-top: 200px;
     font-family: "roboto mono";
 }
 
-.article-columm-right p{
+.benefits-columm-right p{
+    text-align: left;
     margin-bottom: 100px;
     padding-top: 20px;
     font-size: 18px;
@@ -66,54 +62,61 @@
     line-height: 1.5;
 }
 
-.article-columm-right strong{
+.benefits-columm-right strong{
     background-color: #0048a7;
 }
 
 
-.article-main p strong{
+.benefits-main p strong{
     background-color: #0048a7;
 }
 
-.linha-article{
+.linha-benefits{
     background: linear-gradient(to right, #ddd, #888);
     height: 2px;
-    width: 1000px;
+    width: 1100px;
     position: absolute;
     right: 0;
     top: 337px;
 }
 
+
+.benefits-columm-left h3{
+    
+    font-size:60px;
+    padding-top: 100px;
+    font-family: "roboto mono";
+}
+
 @media (max-width: 720px){
 
-    .article-container{
+    .benefits-container{
         display: flex;
         flex-direction: column;
         height: 100%;
     }
 
-    .article-columm-left{
+    .benefits-columm-left{
         text-align: left;
     }
-    .article-columm-left p{
+    .benefits-columm-left p{
         width: 300px;
         font-size: 16px;
     }
 
-    .article-columm-right{ 
+    .benefits-columm-right{ 
         text-align: left;
     }
-    .article-columm-right p{
+    .benefits-columm-right p{
         width: 300px;
         font-size: 16px;
     }
 
 
-    .linha-article {
+    .linha-benefits {
         margin-top: 70px;
         width: 100%;
         max-width: 300px;
         top: 30px; /* Ajusta posição vertical */
         /* display: none; /* Opcional: Ocultar em telas muito pequenas se poluir */
-    }
-}
+    }}

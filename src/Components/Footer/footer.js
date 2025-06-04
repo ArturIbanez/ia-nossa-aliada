@@ -6,18 +6,14 @@ function Footer() {
     <footer className="footer">
     <div className="footer-line"></div>
       <div className="footer-content">
+       
         <div className="footer-column">
           <p className="footer-title">Informações do Projeto</p>
-          <p>Projeto acadêmico da disciplina de Desafio da Profissão</p>
-          <p>Prof. Suellen S. Sotille</p>
-          <p>Semestre 2025/01</p>
-        </div>
-        <div className="footer-column">
+          <p>Projeto acadêmico da disciplina de Desafio da Profissão <br/>Prof. Suellen S. Sotille <br/>Semestre 2025/01 </p>
+
           <p className="footer-title">Integrantes</p>
-          <p>Artur Ibañez</p>
-          <p>Augusto Altmayer</p>
-          <p>Davi Maia</p>
-          <p>Ricardo Drews</p>
+          <p>Artur Ibañez <br/>Augusto Altmayer <br/>Davi Maia <br/> Ricardo Drews</p>
+      
         </div>
       </div>
       <div className="footer-bottom">

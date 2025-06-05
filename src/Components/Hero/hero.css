@@ -98,7 +98,7 @@
     }
 }
 
-@media (min-width: 1200px, max-width: 1600px ){
+@media (min-width: 1200px) and (max-width: 1600px){
     .hero-main h1{
         align-self: center;
         width: 1000px;

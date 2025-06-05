@@ -97,3 +97,21 @@
         font-family: "nunito", Arial, Helvetica, sans-serif;
     }
 }
+
+@media (max-width: 1200px){
+    .hero-main h1{
+        align-self: center;
+        width: 950px;
+        font-size: 50px;
+    }
+
+    .hero-main p{
+        position: absolute;
+        bottom: 160px;
+        right: 150px;
+        text-align: right;
+        width: 500px;
+        font-size: 15px;
+        font-family: "nunito", Arial, Helvetica, sans-serif;
+    }
+}
